@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KML_final.kml</name>
+	<Style id="sn_coffee">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/coffee.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ranger_station">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ranger_station</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ranger_station</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ranger_station">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_dining">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_coffee">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_coffee</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_coffee</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_dining">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_coffee">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/coffee.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ranger_station">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_dining">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>KML</name>
+		<open>1</open>
+		<Placemark>
+			<name>Jefferson Lab</name>
+			<description>More great GIS work!</description>
+			<LookAt>
+				<longitude>-71.82050773297974</longitude>
+				<latitude>42.25137762794517</latitude>
+				<altitude>0</altitude>
+				<heading>-20.59111030242719</heading>
+				<tilt>7.73202951472835</tilt>
+				<range>1463.301163108362</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.82154365258332,42.2508140479131,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Annie&apos;s Brunch</name>
+			<description>Grab a quick and affordable brunch when your hungry!</description>
+			<LookAt>
+				<longitude>-71.82006776523801</longitude>
+				<latitude>42.2513753251674</latitude>
+				<altitude>0</altitude>
+				<heading>-1.811307615357036</heading>
+				<tilt>26.22726889033993</tilt>
+				<range>416.3674333089965</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_dining</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.82108546610398,42.25096952361149,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDCE Lab</name>
+			<description>Here is where some great GIS happens for some students!</description>
+			<LookAt>
+				<longitude>-71.8202358056199</longitude>
+				<latitude>42.2522997515771</latitude>
+				<altitude>0</altitude>
+				<heading>-16.7415113614619</heading>
+				<tilt>2.636393335466671</tilt>
+				<range>301.9323313094726</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.82074285643827,42.25233395164567,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Coffee</name>
+			<description>Coffee has been known to reside here. This is an important thing to be aware of for Graduate students.</description>
+			<LookAt>
+				<longitude>-71.8219657130598</longitude>
+				<latitude>42.25044307177036</latitude>
+				<altitude>0</altitude>
+				<heading>-20.59209490971724</heading>
+				<tilt>0</tilt>
+				<range>461.2617524723615</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_coffee</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.82323069063681,42.25038809549079,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
